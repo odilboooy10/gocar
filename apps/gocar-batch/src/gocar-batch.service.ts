@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class AppService {
+export class GocarBatchService {
   getHello(): string {
-    return 'Hello World!';
+    return 'Welcome to GoCar Batch Server';
   }
 }
